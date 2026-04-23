@@ -5,7 +5,7 @@ color 9F
 
 echo.
 echo ╔════════════════════════════════════════════════════╗
-echo ║    DISABLE SOPHOS TAMPER PROTECTION TOOL           ║
+echo ║    DISABLE SOPHOS TAMPER PROTECTION TOOL.                     ║
 echo ╚════════════════════════════════════════════════════╝
 echo.
 
@@ -31,11 +31,11 @@ IF %ERRORLEVEL% EQU 1 (
 cls
 echo.
 echo ╔══════════════════════════════════════════════╗
-echo ║               ACTION MENU                    ║
+echo ║                    ACTION MENU                         ║
 echo ╠══════════════════════════════════════════════╣
-echo ║ 1. I have renamed SophosED.sys via Recovery  ║
-echo ║ 2. Display recovery instructions             ║
-echo ║ 3. Watch Sophos removal tutorial video       ║
+echo ║ 1. I have renamed SophosED.sys via Recovery            ║
+echo ║ 2. Display recovery instructions                       ║
+echo ║ 3. Watch Sophos removal tutorial video                 ║
 echo ╚══════════════════════════════════════════════╝
 choice /c 123 /n /m "Select an option: "
 if errorlevel 3 goto videoInstructions
